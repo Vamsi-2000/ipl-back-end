@@ -1,0 +1,8 @@
+import org.springframework.web.bind.annotation.CrossOrigin;
+
+@CrossOrigin(origins = "https://ipl-predictions-frontend.netlify.app")
+@RestController
+@RequestMapping("/api")
+public class YourController {
+    // your endpoints here
+}
